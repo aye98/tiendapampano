@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(172, 208, 196);
+    border-radius: 0px 0px 0px 0px;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    margin: 20px 100px 10px 100px;
+}
+
+.lista {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.lista li {
+    margin-right: 60px;
+    list-style: none;
+}
+
+.lista li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.lista li a:hover {
+    color: hsl(41, 98%, 60%);
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.articulos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.articulo {
+    text-align: center;
+    margin-left: 60px;
+    width: 300px;
+    height: 400px;
+    background-color: #fdbe35a3;
+    border-radius: 20px;
+    box-shadow: 6px 11px 5px -3px rgba(0,0,0,0.09);
+}
+
+.cuadernos-pediatricos {
+    width: 300px;
+}
+
+.hojarayada {
+    width: 300px;
+}
+
+.agenda {
+    width: 300px;
+}
+
+.btn-ped {
+    margin-top: 20px;
+    background-color: #ACD0C4;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-ped:hover {
+    background-color: #f59f59f5;
+}
+
+.btn-hr {
+    margin-top: 20px;
+    background-color: #ACD0C4;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-hr:hover {
+    background-color: #f59f59f5;
+}
+
+.btn-ag {
+    margin-top: 20px;
+    background-color: #ACD0C4;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-ag:hover {
+    background-color: #f59f59f5;
+}
+
+
+.banner {
+    display: flex;
+    margin-top: 60px;
+    height: 350px;
+    background-color:aliceblue;
+    box-shadow: 6px 11px 5px -3px rgba(0,0,0,0.09);
+}
+
+.banner img {
+    background-image: 100% url(./assets/images/banner.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+
+footer h3 {
+    margin: 80px 0px 20px 0px;
+    text-align: center;
+    font-weight: 400;
+    background-color:#ACD0C4;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.formulario {
+    margin: 80px 0px 40px 0px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    background-color: #ACD0C4;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2.);
+    
+}
+
+form .text-area {
+    width: 400px;
+    height: 100px;
+}
+
+form .btn-submit {
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #FED573;
+}
