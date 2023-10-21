@@ -1,30 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
-        
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../assets/styles/style.css">
 
     <title> Contacto </title>
 </head>
+
 <body>
     <nav>
         <img class="logo" src="../assets/img/pampano.png" alt="logo-pampano">
         <ul class="lista">
-            <li><a href="/"> Tienda  </a></li>
+            <li><a href="/"> Tienda </a></li>
             <li><a href="./pages/servicios.html" target="_blank"> Servicios </a></li>
             <li><a href="./pages/nosotros.html" target="_blank"> Nosotros </a></li>
-            <li><a href="./pages/contacto.html" target="_blank"> Contacto  </a></li>
+            <li><a href="./pages/contacto.html" target="_blank"> Contacto </a></li>
         </ul>
     </nav>
+    <div class="container">
 
-    <h2 style="text-align:center; margin-top: 50px;"> Formulario de Contacto </h2>
-    
+        <h2 style="text-align:center; margin-top: 50px;"> Formulario de Contacto </h2>
+        <!--
         <form action="https://formspree.io/f/xeqbpqbj" method="POST">
             <label>
                 Email:
@@ -41,15 +46,43 @@
             </label>
             <textarea class="text-area" name="message" placeholder="Quisiera un presupuesto sobre..." ></textarea>
             <button class="btn-submit" type="submit"> Enviar </button>
+        </form> -->
+
+
+        <form action="" class="h-100">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Telefono</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="01155555555">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">¿En qué podemos ayudarte?</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+            </div>
+
         </form>
     </div>
 
-    
-        
+
+
     </section>
 
     <footer>
         <h3> Copyright- 2023 &copy;<a href="#"> Pámpano encuadernaciones </a> todos los derechos reservados.</h3>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
